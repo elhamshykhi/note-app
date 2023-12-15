@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  @apply bg-teal-500 py-2 rounded-lg capitalize font-semibold;
+}
