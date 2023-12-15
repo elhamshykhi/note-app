@@ -1,7 +1,7 @@
 :root {
-  --gray-900: rgb(17, 24, 39);
   --gray-800: rgb(31, 41, 55);
   --gray-700: rgb(55, 65, 81);
+  --teal-400: rgb(45, 212, 191);
 }
 
 ::-webkit-scrollbar {
@@ -15,4 +15,8 @@
 ::-webkit-scrollbar-thumb {
   background-color: var(--gray-700);
   border-radius: 10px;
+}
+
+.notes_list_item.selectedNote {
+  border: 2px solid var(--teal-400);
 }
